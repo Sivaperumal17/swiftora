@@ -37,11 +37,9 @@ const Sidebar = () => {
             { to: "/supplier-dashboard", icon: <FaHome className="text-xl" />, label: "Dashboard" },
             { to: "/supplier-profile", icon: <FaUser className="text-xl" />, label: "Profile" },
             { to: "/my-supermarkets", icon: <FaStore className="text-xl" />, label: "My Supermarkets" },
-            { to: "/supplier-warehouses", icon: <FaWarehouse className="text-xl" />, label: "My Warehouses" },
             { to: "/my-orders", icon: <FaClipboardList className="text-xl" />, label: "My Orders" },
             { to: "/inventory", icon: <FaBox className="text-xl" />, label: "Current Inventory" },
             { to: "/barcode-scanner", icon: <FaBarcode className="text-xl" />, label: "Barcode Scanner" },
-            { to: "/supplier-notifications", icon: <FaBell className="text-xl" />, label: "Notifications" },
           ].map(({ to, icon, label }) => (
             <NavLink
               key={to}
